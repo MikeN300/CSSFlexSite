@@ -8,11 +8,6 @@ button {
 	display: flex;
 	justify-content: space-between;
 }
-.navlinks ul {
-	display: flex;
-	text-decoration: none;
-	list-style: none;
-}
 .logoflex {
 	display: flex;
 	justify-content: center;
@@ -24,8 +19,19 @@ button {
 	font-weight: 800;
 	margin: 15px 0px;
 }
-navlinks ul li a {
+.navlinksflex {
+	display: flex;
+	align-items: center;
+}
+.navlinksflex ul {
+	display: flex;
+	list-style: none;
+	gap: 15px;
+}
+.navlink {
 	color: #F9FAF8;
+	text-decoration: none;
+	margin-right 15px;
  }
 .hero {
 
