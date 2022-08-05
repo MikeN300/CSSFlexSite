@@ -1,49 +1,99 @@
 * {
 	font-family: 'Roboto', sans-serif;
 }
+html, body {
+	margin: 0;
+	padding: 0;
+}
 button {
 	border-radius: 7px;
 }
 .navbar {
-	display: flex;
+	display: inline-flex;
 	justify-content: space-between;
+	width: 100%;
+	padding-top: 15px;
+
 }
 .logoflex {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	padding-left: 10px;
+	padding: 00px 60px;
+
 }
 .logo {
-	font-size: 34px;
+	font-size: 20px;
 	font-weight: 800;
-	margin: 15px 0px;
 }
-.navlinksflex {
-	display: flex;
-	align-items: center;
-}
+
 .navlinksflex ul {
 	display: flex;
 	list-style: none;
 	gap: 15px;
+	padding-right: 60px
 }
 .navlink {
 	color: #F9FAF8;
 	text-decoration: none;
-	margin-right 15px;
  }
 .hero {
+	display: flex;
+	padding: 40px 60px
 
+}
+.heroleft {
+	flex-grow: 3;
+}
+.heroright {
+	flex-grow: 1;
 }
 .imagesbox {
-
+	display: flex;
+	flex-direction: column;
+	padding: 30px 60px;
 }
-.quotebox {
-
+.imgboxcontent {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+}
+.imagesboxtitle {
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+}
+.portfolioitems {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.testimonialbox {
+	background-color: #E5E7EB;
+	padding: 50px 90px;
+}
+.testimonialbox h2 {
+	font-size: 24px;
+	font-weight: 300;
+	font-style: italic;
+}
+.testimonialbox p {
+	text-align: right;
+	font-weight: 800;
 }
 .calltoactionbox {
 
+}
+.CTA-inner-box {
+	background-color: #3882F6;
+	margin: 30px 15%;
+	border-radius: 10px;
+	height: 100px;
+}
+.CTAleft {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 25px;
 }
 .footer {
 
