@@ -1,12 +1,32 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
 button {
-	
+	border-radius: 7px;
 }
 .navbar {
-
+	display: flex;
+	justify-content: space-between;
 }
-.navlinks {
+.navlinks ul {
+	display: flex;
 	text-decoration: none;
+	list-style: none;
 }
+.logoflex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 10px;
+}
+.logo {
+	font-size: 34px;
+	font-weight: 800;
+	margin: 15px 0px;
+}
+navlinks ul li a {
+	color: #F9FAF8;
+ }
 .hero {
 
 }
@@ -20,5 +40,9 @@ button {
 
 }
 .footer {
-	
+
+}
+.dark {
+	background-color: #1F2937;
+	color: #F9FAF8;
 }
